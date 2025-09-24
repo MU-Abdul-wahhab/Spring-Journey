@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="toyota" class="com.spring.journey.beans.Car">
+        <property name="brand" value="Toyota"/>
+        <property name="model" value="Supra"/>
+    </bean>
+
+    <bean id="honda" class="com.spring.journey.beans.Car">
+        <property name="brand" value="Honda"/>
+        <property name="model" value="Civic"/>
+    </bean>
+
+    <bean id="hp" class="com.spring.journey.beans.Laptop">
+        <property name="brand" value="HP"/>
+        <property name="model" value="EliteBook 840 G3"/>
+    </bean>
+
+    <bean id="asus" class="com.spring.journey.beans.Laptop">
+        <property name="brand" value="Asus"/>
+        <property name="model" value="Asus Viva Book"/>
+    </bean>
+
+    <bean id="apple" class="com.spring.journey.beans.Phone">
+        <property name="brand" value="Apple"/>
+        <property name="model" value="Apple 11"/>
+    </bean>
+
+    <bean id="samsung" class="com.spring.journey.beans.Phone">
+        <property name="brand" value="Samsung"/>
+        <property name="model" value="S20 Plus"/>
+    </bean>
+
+</beans>

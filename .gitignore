@@ -1,0 +1,24 @@
+# ---- Java / Maven / Spring Boot ----
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# ---- IntelliJ IDEA ----
+.idea/
+*.iws
+out/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Logs & Temp ----
+*.log
+*.tmp
+hs_err_pid*
+
+# ---- OS files ----
+.DS_Store
+Thumbs.db
