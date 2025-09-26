@@ -80,7 +80,6 @@ System.out.println("User Name - " + user.getName());
 System.out.println("User's Phone Brand - " + user.getPhone().getBrand());
 System.out.println("User's Phone Model - " + user.getPhone().getModel());
 
-context.close();
 ```
 
 ### 🖥️ Sample Output
@@ -119,5 +118,4 @@ Spring makes it easy to wire objects without manually creating them. Using metho
 ## 📌 References
 
 - [Spring @Bean Documentation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/Bean.html)
-- [Spring @Configuration and Dependency Injection – Baeldung](https://www.baeldung.com/spring-annotation-bean-configuration)
 - [Spring IoC Container Overview – Baeldung](https://www.baeldung.com/inversion-control-and-dependency-injection-in-spring)
